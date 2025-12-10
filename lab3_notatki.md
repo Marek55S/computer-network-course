@@ -16,14 +16,14 @@ nie można się losowo wpinać do vlan, bo wtedy port się domyślnie wyłączy,
 
 ##### Lab praktyczny
 
-enable
-config t
-
+-   tworzenie vlanu
+    enable
+    config t
     vlan 11
     exit
 
 -   przepisywanie kilku portów naraz do vlanu
-    interface range fa0/1 - 4
+    interface range fa0/1 - 4 (a jak pojedynczo to interface fa0/1)
     switchport mode access
     switchport access vlan 11
     exit
@@ -31,6 +31,16 @@ config t
 ##### podpięcie
 
 wpinamy porty konsolowe komputerów do portów konsolowych switcha żeby móc go konfigurować
+podpinamy komputery do switchów
+spinamy switche ze sobą żeby utworzyć połączenie trunk
+
+<figure align="center">
+  <img src="./lab3_1.jpg" width="700" alt="notatki z tablicy lab4">
+  <figcaption><em>Rys. 1 — Podpięcie komputerów do switchów oraz połączenie trunk między switchami</em></figcaption>
+</figure>
+białe kabelki - crossy (switch - switch)
+
+niebieskie kabelki - proste (switch - komputer)
 
 ##### konfiguracja vlanów
 
@@ -49,3 +59,8 @@ wpinamy porty konsolowe komputerów do portów konsolowych switcha żeby móc go
     switchport mode trunk
 
 *   albo w tej kolejności albo samo drugie polecenie
+
+show interface status -- pokazuje status portów
+show vlan brief -- pokazuje vlany i przypisane do nich porty
+show vlan id 10 -- pokazuje szczegóły konkretnego vlanu
+show interface fa0/24 trunk -- pokazuje szczegóły konkretnego portu trunk
