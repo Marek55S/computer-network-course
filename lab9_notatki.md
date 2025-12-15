@@ -94,4 +94,9 @@ redi conn
 end
 ```
 
+<figure align="center">
+  <img src="./lab9_5.jpg" width="700" alt="schemat sieci zbudowanej przez nas na zajęciach">
+  <figcaption><em>Rys. 5 — schemat sieci zbudowanej przez nas na zajęciach</em></figcaption>
+</figure>
+
 trzeba wiedzieć jak będzie działać rip v1 przy podsieciach
