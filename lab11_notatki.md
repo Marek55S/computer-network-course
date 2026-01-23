@@ -4,7 +4,7 @@ Konfigurujemy topologię tak jak na rysunku poniżej:
 ![alt text](lab11_1.png)
 
 kabelki podłączone jak na zdjęciu poniżej:
-(wrzuć zdjęcie kabelków)
+![alt text](lab11_2.jpg)
 
 ustawinie switcha:
 
