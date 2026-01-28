@@ -19,9 +19,10 @@ ASBR - autonomous system boundary router - router graniczny systemu autonomiczne
 ### Połączenie routerów
 
 3 routery połączone w trójkąt
-![topologia](./images/lab10_topologia.png)
-![zdjęcie](image.png)
-^ tutaj zwrócić uwagę na to, że w R14 interfejs GA0/0/0 jest po prawej XD
+![topologia](lab10_topologia.jpg)
+^ brawo dla mnie, nie zapisałem pliku
+![zdjęcie](lab10_1.jpg)
+^ tutaj zwrócić uwagę na to, że w R14 interfejs GA0/0/0 jest po prawej XD (????????)
 
 Wszystko w sieci 202.0.0.64/26
 
